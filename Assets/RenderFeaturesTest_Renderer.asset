@@ -55,12 +55,12 @@ MonoBehaviour:
   m_Active: 1
   settings:
     passTag: Mask1
-    Event: 300
+    Event: 250
     filterSettings:
       RenderQueueType: 0
       LayerMask:
         serializedVersion: 2
-        m_Bits: 0
+        m_Bits: 256
       PassNames: []
     overrideMaterial: {fileID: 0}
     overrideMaterialPassIndex: 0
@@ -68,11 +68,11 @@ MonoBehaviour:
     depthCompareFunction: 4
     enableWrite: 1
     stencilSettings:
-      overrideStencilState: 0
-      stencilReference: 0
+      overrideStencilState: 1
+      stencilReference: 1
       stencilCompareFunction: 8
       passOperation: 0
-      failOperation: 0
+      failOperation: 2
       zFailOperation: 0
     cameraSettings:
       overrideCamera: 0
@@ -99,7 +99,7 @@ MonoBehaviour:
       RenderQueueType: 0
       LayerMask:
         serializedVersion: 2
-        m_Bits: 0
+        m_Bits: 512
       PassNames: []
     overrideMaterial: {fileID: 0}
     overrideMaterialPassIndex: 0
@@ -107,11 +107,11 @@ MonoBehaviour:
     depthCompareFunction: 4
     enableWrite: 1
     stencilSettings:
-      overrideStencilState: 0
-      stencilReference: 0
-      stencilCompareFunction: 8
+      overrideStencilState: 1
+      stencilReference: 2
+      stencilCompareFunction: 3
       passOperation: 0
-      failOperation: 0
+      failOperation: 2
       zFailOperation: 0
     cameraSettings:
       overrideCamera: 0
@@ -138,7 +138,7 @@ MonoBehaviour:
       RenderQueueType: 0
       LayerMask:
         serializedVersion: 2
-        m_Bits: 0
+        m_Bits: 1024
       PassNames: []
     overrideMaterial: {fileID: 0}
     overrideMaterialPassIndex: 0
@@ -146,9 +146,9 @@ MonoBehaviour:
     depthCompareFunction: 4
     enableWrite: 1
     stencilSettings:
-      overrideStencilState: 0
-      stencilReference: 0
-      stencilCompareFunction: 8
+      overrideStencilState: 1
+      stencilReference: 1
+      stencilCompareFunction: 3
       passOperation: 0
       failOperation: 0
       zFailOperation: 0
@@ -177,7 +177,7 @@ MonoBehaviour:
       RenderQueueType: 0
       LayerMask:
         serializedVersion: 2
-        m_Bits: 0
+        m_Bits: 2048
       PassNames: []
     overrideMaterial: {fileID: 0}
     overrideMaterialPassIndex: 0
@@ -185,9 +185,9 @@ MonoBehaviour:
     depthCompareFunction: 4
     enableWrite: 1
     stencilSettings:
-      overrideStencilState: 0
-      stencilReference: 0
-      stencilCompareFunction: 8
+      overrideStencilState: 1
+      stencilReference: 2
+      stencilCompareFunction: 3
       passOperation: 0
       failOperation: 0
       zFailOperation: 0
